@@ -106,7 +106,7 @@ Apache server confirmation page
 
 Access the website using:
 
-# http://192.168.56.10
+ip-address: 192.168.56.10
 
 
 ![IPCONFIG](screenshots/desktop_vm_webpage.png)
