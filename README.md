@@ -46,6 +46,11 @@ NAT Adapter:        10.0.2.15 (Internet access)
 
 Host-Only Adapter:  192.168.56.10 (Local access)
 
+![IPCONFIG](screenshots/ip-address.png)
+
+![IPCONFIG](screenshots/ping_test.png)
+
+
 # Installation & Setup Steps
 
 # 1. Update system
@@ -62,6 +67,11 @@ sudo systemctl enable apache2
 
 sudo systemctl start apache2
 
+![IPCONFIG](screenshots/systemctl_status.png)
+
+![IPCONFIG](screenshots/port_listening.png)
+
+
 # 4. Configure Firewall (UFW)
 
 sudo ufw enable
@@ -69,6 +79,9 @@ sudo ufw enable
 sudo ufw allow 'Apache'
 
 sudo ufw allow 80/tcp
+
+![IPCONFIG](screenshots/firewall_status.png)
+
 
 # 5. Create Custom Web Page
 
@@ -80,11 +93,14 @@ The hosted webpage includes:
 
 Custom greeting message
 
-My name (Ravi) displayed prominently
+My name (Ravi Kumar) displayed prominently
 
 Styled HTML + CSS design
 
 Apache server confirmation page
+
+![IPCONFIG](screenshots/curl_localhost.png)
+
 
 # Project Output
 
@@ -92,6 +108,9 @@ Access the website using:
 
 http://192.168.56.10
 
+
+![IPCONFIG](screenshots/desktop_vm_webpage.png)
+ 
 # Features
 
 Apache web server running
