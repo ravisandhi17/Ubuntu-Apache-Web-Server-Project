@@ -8,7 +8,7 @@ Apache Web Server Deployment on Ubuntu (VirtualBox) with Custom HTML Page
 
 This project demonstrates how to set up a fully working Apache web server on Ubuntu Linux inside a VirtualBox environment and host a custom HTML webpage.
 
-The webpage is customized with my name (Ravi) and serves as a simple portfolio-style landing page hosted on a local server.
+The webpage is customized with my name (Ravi Kumar) and serves as a simple portfolio-style landing page hosted on a local server.
 
 # Technologies Used
 
