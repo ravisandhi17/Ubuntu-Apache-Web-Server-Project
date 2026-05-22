@@ -106,7 +106,7 @@ Apache server confirmation page
 
 Access the website using:
 
-http://192.168.56.10
+# http://192.168.56.10
 
 
 ![IPCONFIG](screenshots/desktop_vm_webpage.png)
@@ -124,20 +124,6 @@ Dual network configuration
 Host-to-VM connectivity
 
 VirtualBox-based lab setup
-
-# Screenshots (Add in GitHub)
-
-# Add these inside /screenshots folder:
-
-Apache running status
-
-IP address configuration (ip a)
-
-Browser output page
-
-VirtualBox network settings
-
-Firewall status (ufw status)
 
 # Learning Outcomes
 
